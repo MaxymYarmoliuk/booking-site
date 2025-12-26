@@ -1,0 +1,37 @@
+<!-- Сайт розроблено студентом Максимом Ярмолюком, група ФІТ-2-2 -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Бронювання</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+<a href="index.html">Головна</a>
+<a href="services.html">Послуги</a>
+<a href="booking.html">Бронювання</a>
+<a href="about.html">Про нас</a>
+</nav>
+<h2>Забронювати послугу</h2>
+<label>Послуга:</label>
+<select id="service">
+<option value="">-- оберіть --</option>
+<option>Зовнішня мийка</option>
+<option>Комплексна мийка</option>
+<option>Хімчистка салону</option>
+</select>
+<label>Час:</label>
+<select id="time">
+<option value="">-- оберіть --</option>
+<option>10:00</option>
+<option>12:00</option>
+<option>14:00</option>
+<option>16:00</option>
+</select>
+<button onclick="book()">Підтвердити</button>
+<p id="result"></p>
+<script src="script.js"></script>
+<footer><p>Максим Ярмолюк, ФІТ-2-2</p></footer>
+</body>
+</html>
